@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93b944b7b6e3f594ea476bf82238efb4, type: 3}
+  m_Name: BuffsSO
+  m_EditorClassIdentifier: 
+  commonBuffs:
+  - Name: Life Serum I
+    Description: Increase Max HP by 5%
+  - Name: Bronze Plating
+    Description: Increase DEF by 25
+  - Name: Chemic react
+    Description: Increase Reaction Damage by 10%
+  - Name: BRRzzt
+    Description: Increase Weapon Fire Rate by 10%
+  - Name: ElemBent
+    Description: Increase Elemental Status Duration by 50%
+  - Name: Shooter Booster I
+    Description: Increase Weapon Damage by 25%
+  - Name: Just keep groovin
+    Description: Reduce Damage recieved by 5% while moving
+  - Name: Refresh
+    Description: Heals 5% of max HP when entering a new level
+  rareBuffs:
+  - Name: Boostleg
+    Description: Gain 1 Extra Dash
+  - Name: Mad Chemist
+    Description: Killing an Enemy has a chance to heal the player based on 2% of
+      their Max HP
+  - Name: Life Serum II
+    Description: Increase Max HP by 15%
+  - Name: Iron Plating
+    Description: Increase DEF by 10%
+  - Name: CHEM boi
+    Description: Increase Reaction Damage by 25%
+  - Name: BRRRRzzt
+    Description: Increase Weapon Fire Rate by 25%
+  - Name: Shooter Booster II
+    Description: Increase Weapon Damage by 75%
+  - Name: Self burn
+    Description: Cyanide Cores no longer deal damage to player
+  - Name: Restore
+    Description: Heals 10% of max HP when entering a new level
+  legendaryBuffs:
+  - Name: Supercharged
+    Description: Increase Reaction Damage by 50%
+  - Name: Life Serum III
+    Description: Increase Max HP by 30%
+  - Name: Steel Plating
+    Description: Increase DEF by 20%
+  - Name: Shooter Booster III
+    Description: Increase Weapon Damage by 150%
+  - Name: Criteactions
+    Description: Reactions have a 25% chance to deal double damage
+  - Name: Meditation
+    Description: Heals 20% of max HP when entering a new level
+  cursedBuffs:
+  - Name: Surprise
+    Description: Increase chance for better Buffs but options reduced to 2
+  - Name: Overcharged
+    Description: Increase Reaction Damage by 100% but reduce DEF and HP by 50%
+  - Name: Devolved
+    Description: You no longer do reactions, convert reaction damage to weapon damage
+  - Name: Big Body
+    Description: Increase Max HP by 75% but Decrease Reaction Damge by 50%
+  - Name: Bust or All In
+    Description: Increase AU drops but decrease def by 50%

@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00833ee9123f8ff4db5e55a2c9231b0f, type: 3}
+  m_Name: EnemySO
+  m_EditorClassIdentifier: 
+  enemies:
+  - Name: Enemy Melee
+    maxHealth: 200
+    defense: 60
+    damage:
+    - 10
+  - Name: Enemy Range
+    maxHealth: 100
+    defense: 30
+    damage:
+    - 10
+  - Name: Enemy Dash
+    maxHealth: 200
+    defense: 60
+    damage:
+    - 10
+  - Name: Enemy Mage
+    maxHealth: 100
+    defense: 30
+    damage:
+    - 10
+  - Name: Enemy Cannon
+    maxHealth: 100
+    defense: 30
+    damage:
+    - 10
+  - Name: Enemy Jump
+    maxHealth: 200
+    defense: 60
+    damage:
+    - 10
+  - Name: Enemy Laser
+    maxHealth: 100
+    defense: 30
+    damage:
+    - 10
+  - Name: Insect Range
+    maxHealth: 100
+    defense: 30
+    damage:
+    - 5
+  - Name: Insect Dash
+    maxHealth: 150
+    defense: 60
+    damage:
+    - 10
+  - Name: Insect Jump
+    maxHealth: 150
+    defense: 60
+    damage:
+    - 10
+  - Name: Plant Melee
+    maxHealth: 300
+    defense: 100
+    damage:
+    - 15
+  - Name: Plant Mage
+    maxHealth: 200
+    defense: 70
+    damage:
+    - 50
+  - Name: Plant Cannon
+    maxHealth: 200
+    defense: 70
+    damage:
+    - 70
+  - Name: Robot Melee
+    maxHealth: 500
+    defense: 150
+    damage:
+    - 100
+  - Name: Robot Range
+    maxHealth: 300
+    defense: 100
+    damage:
+    - 50
+  - Name: Robot Dash
+    maxHealth: 400
+    defense: 100
+    damage:
+    - 50
+  - Name: Robot Laser
+    maxHealth: 200
+    defense: 50
+    damage:
+    - 100
+  - Name: Worm
+    maxHealth: 1000
+    defense: 150
+    damage:
+    - 5
+  - Name: Daisy
+    maxHealth: 3000
+    defense: 150
+    damage:
+    - 50
+    - 20
+    - 80
+  - Name: Monitor
+    maxHealth: 4000
+    defense: 180
+    damage:
+    - 100
+    - 10
+    - 30
